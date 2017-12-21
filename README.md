@@ -2,7 +2,8 @@
 Crash protection based on Swizzle Method. Can effectively prevent the code potential crash, automatically capture the broken loop factor that causes the app to crash when the app runs, so as to prevent the app from collapsing, so it can continue to function normally
 
 # 前言
-  一个无侵入的 iOS crash 防护框架.主要参考了[《大白健康系统--iOS APP运行时Crash自动修复系统》](https://neyoufan.github.io/2017/01/13/ios/BayMax_HTSafetyGuard/)此文，以及[AvoidCrash](https://github.com/chenfanfang/AvoidCrash)、[QYCrashProtector](https://github.com/qiyer/QYCrashProtector)、[NeverCrash](https://github.com/jseanj/NeverCrash)这三个框架编写而成。更多内容请看项目吧。
+  一个无侵入的 iOS crash 防护框架，基于 Swizzle Method 的 Crash 防护。能有效的防止代码潜在的crash，自动在app运行时实时捕获导致app崩溃的破环因子，使app避免崩溃，照样可以继续正常运行。
+  主要参考了[《大白健康系统--iOS APP运行时Crash自动修复系统》](https://neyoufan.github.io/2017/01/13/ios/BayMax_HTSafetyGuard/)此文，以及[AvoidCrash](https://github.com/chenfanfang/AvoidCrash)、[QYCrashProtector](https://github.com/qiyer/QYCrashProtector)、[NeverCrash](https://github.com/jseanj/NeverCrash)这三个框架编写而成。更多内容请看项目吧。
 
 # 功能
 - unrecognized selector crash
@@ -29,6 +30,10 @@ Crash protection based on Swizzle Method. Can effectively prevent the code poten
  @param protectorType 启动的组件类型
  */
 + (void)configCrashProtectorService:(WOCrashProtectorStyle)protectorType;
+
+
+# 版本适配   
+系统支持 iOS 8.0 ~ iOS 11.2
 
 
 # 注意事项
