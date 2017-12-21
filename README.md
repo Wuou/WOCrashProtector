@@ -6,12 +6,12 @@ Crash protection based on Swizzle Method. Can effectively prevent the code poten
   
 
 # 功能
-unrecognized selector crash
-KVO crash
-NSNotification crash
-NSTimer crash
-Container crash
-NSString crash
+ unrecognized selector crash
+ KVO crash
+ NSNotification crash
+ NSTimer crash
+ Container crash
+ NSString crash
 
   
 # 使用方法
