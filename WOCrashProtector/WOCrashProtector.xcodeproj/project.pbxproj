@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6721E3C1FEBA95D00F0F206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721E3B1FEBA95D00F0F206 /* AppDelegate.m */; };
+		A6721E3F1FEBA95D00F0F206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721E3E1FEBA95D00F0F206 /* ViewController.m */; };
+		A6721E421FEBA95E00F0F206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6721E401FEBA95E00F0F206 /* Main.storyboard */; };
+		A6721E441FEBA95E00F0F206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6721E431FEBA95E00F0F206 /* Assets.xcassets */; };
+		A6721E471FEBA95E00F0F206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6721E451FEBA95E00F0F206 /* LaunchScreen.storyboard */; };
+		A6721E4A1FEBA95E00F0F206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721E491FEBA95E00F0F206 /* main.m */; };
+		A6721E541FEBA95E00F0F206 /* WOCrashProtectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721E531FEBA95E00F0F206 /* WOCrashProtectorTests.m */; };
+		A6721E5F1FEBA95E00F0F206 /* WOCrashProtectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721E5E1FEBA95E00F0F206 /* WOCrashProtectorUITests.m */; };
+		A6721EE91FEBA9DE00F0F206 /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ECC1FEBA9DE00F0F206 /* NSObject+KVOCrash.m */; };
+		A6721EEA1FEBA9DE00F0F206 /* NSTimer+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ECD1FEBA9DE00F0F206 /* NSTimer+Crash.m */; };
+		A6721EEB1FEBA9DE00F0F206 /* NSObject+SelectorCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ECE1FEBA9DE00F0F206 /* NSObject+SelectorCrash.m */; };
+		A6721EEC1FEBA9DE00F0F206 /* NSObject+WOSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ECF1FEBA9DE00F0F206 /* NSObject+WOSwizzle.m */; };
+		A6721EED1FEBA9DE00F0F206 /* NSObject+NSNotificationCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ED21FEBA9DE00F0F206 /* NSObject+NSNotificationCrash.m */; };
+		A6721EEE1FEBA9DE00F0F206 /* WOCrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ED31FEBA9DE00F0F206 /* WOCrashLog.m */; };
+		A6721EEF1FEBA9DE00F0F206 /* WOCrashProtectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ED51FEBA9DE00F0F206 /* WOCrashProtectorManager.m */; };
+		A6721EF01FEBA9DE00F0F206 /* NSString+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ED71FEBA9DE00F0F206 /* NSString+WOCrash.m */; };
+		A6721EF11FEBA9DE00F0F206 /* NSMutableDictionary+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721ED81FEBA9DE00F0F206 /* NSMutableDictionary+WOCrash.m */; };
+		A6721EF21FEBA9DE00F0F206 /* NSArray+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721EDA1FEBA9DE00F0F206 /* NSArray+WOCrash.m */; };
+		A6721EF31FEBA9DE00F0F206 /* NSAttributedString+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721EDB1FEBA9DE00F0F206 /* NSAttributedString+WOCrash.m */; };
+		A6721EF41FEBA9DE00F0F206 /* NSMutableAttributedString+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721EDF1FEBA9DE00F0F206 /* NSMutableAttributedString+WOCrash.m */; };
+		A6721EF51FEBA9DE00F0F206 /* NSMutableString+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721EE21FEBA9DE00F0F206 /* NSMutableString+WOCrash.m */; };
+		A6721EF61FEBA9DE00F0F206 /* NSDictionary+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721EE51FEBA9DE00F0F206 /* NSDictionary+WOCrash.m */; };
+		A6721EF71FEBA9DE00F0F206 /* NSMutableArray+WOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721EE61FEBA9DE00F0F206 /* NSMutableArray+WOCrash.m */; };
+		A6721EFA1FEBAA9800F0F206 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A6721EF91FEBAA9800F0F206 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6721E501FEBA95E00F0F206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6721E2F1FEBA95D00F0F206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6721E361FEBA95D00F0F206;
+			remoteInfo = WOCrashProtector;
+		};
+		A6721E5B1FEBA95E00F0F206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6721E2F1FEBA95D00F0F206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6721E361FEBA95D00F0F206;
+			remoteInfo = WOCrashProtector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6721E371FEBA95D00F0F206 /* WOCrashProtector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOCrashProtector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6721E3A1FEBA95D00F0F206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6721E3B1FEBA95D00F0F206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6721E3D1FEBA95D00F0F206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6721E3E1FEBA95D00F0F206 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6721E411FEBA95E00F0F206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6721E431FEBA95E00F0F206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6721E461FEBA95E00F0F206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6721E481FEBA95E00F0F206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6721E491FEBA95E00F0F206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6721E4F1FEBA95E00F0F206 /* WOCrashProtectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOCrashProtectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6721E531FEBA95E00F0F206 /* WOCrashProtectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WOCrashProtectorTests.m; sourceTree = "<group>"; };
+		A6721E551FEBA95E00F0F206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6721E5A1FEBA95E00F0F206 /* WOCrashProtectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOCrashProtectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6721E5E1FEBA95E00F0F206 /* WOCrashProtectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WOCrashProtectorUITests.m; sourceTree = "<group>"; };
+		A6721E601FEBA95E00F0F206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6721ECA1FEBA9DE00F0F206 /* WOCrashLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOCrashLog.h; sourceTree = "<group>"; };
+		A6721ECB1FEBA9DE00F0F206 /* NSObject+NSNotificationCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSNotificationCrash.h"; sourceTree = "<group>"; };
+		A6721ECC1FEBA9DE00F0F206 /* NSObject+KVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrash.m"; sourceTree = "<group>"; };
+		A6721ECD1FEBA9DE00F0F206 /* NSTimer+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Crash.m"; sourceTree = "<group>"; };
+		A6721ECE1FEBA9DE00F0F206 /* NSObject+SelectorCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorCrash.m"; sourceTree = "<group>"; };
+		A6721ECF1FEBA9DE00F0F206 /* NSObject+WOSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WOSwizzle.m"; sourceTree = "<group>"; };
+		A6721ED01FEBA9DE00F0F206 /* WOCrashProtectorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOCrashProtectorManager.h; sourceTree = "<group>"; };
+		A6721ED11FEBA9DE00F0F206 /* NSObject+KVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrash.h"; sourceTree = "<group>"; };
+		A6721ED21FEBA9DE00F0F206 /* NSObject+NSNotificationCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSNotificationCrash.m"; sourceTree = "<group>"; };
+		A6721ED31FEBA9DE00F0F206 /* WOCrashLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOCrashLog.m; sourceTree = "<group>"; };
+		A6721ED41FEBA9DE00F0F206 /* NSTimer+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Crash.h"; sourceTree = "<group>"; };
+		A6721ED51FEBA9DE00F0F206 /* WOCrashProtectorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOCrashProtectorManager.m; sourceTree = "<group>"; };
+		A6721ED71FEBA9DE00F0F206 /* NSString+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WOCrash.m"; sourceTree = "<group>"; };
+		A6721ED81FEBA9DE00F0F206 /* NSMutableDictionary+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+WOCrash.m"; sourceTree = "<group>"; };
+		A6721ED91FEBA9DE00F0F206 /* NSMutableAttributedString+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EDA1FEBA9DE00F0F206 /* NSArray+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WOCrash.m"; sourceTree = "<group>"; };
+		A6721EDB1FEBA9DE00F0F206 /* NSAttributedString+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+WOCrash.m"; sourceTree = "<group>"; };
+		A6721EDC1FEBA9DE00F0F206 /* NSMutableString+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EDD1FEBA9DE00F0F206 /* NSMutableArray+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EDE1FEBA9DE00F0F206 /* NSDictionary+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EDF1FEBA9DE00F0F206 /* NSMutableAttributedString+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+WOCrash.m"; sourceTree = "<group>"; };
+		A6721EE01FEBA9DE00F0F206 /* NSMutableDictionary+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EE11FEBA9DE00F0F206 /* NSString+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EE21FEBA9DE00F0F206 /* NSMutableString+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+WOCrash.m"; sourceTree = "<group>"; };
+		A6721EE31FEBA9DE00F0F206 /* NSArray+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EE41FEBA9DE00F0F206 /* NSAttributedString+WOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+WOCrash.h"; sourceTree = "<group>"; };
+		A6721EE51FEBA9DE00F0F206 /* NSDictionary+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WOCrash.m"; sourceTree = "<group>"; };
+		A6721EE61FEBA9DE00F0F206 /* NSMutableArray+WOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WOCrash.m"; sourceTree = "<group>"; };
+		A6721EE71FEBA9DE00F0F206 /* NSObject+SelectorCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorCrash.h"; sourceTree = "<group>"; };
+		A6721EE81FEBA9DE00F0F206 /* NSObject+WOSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WOSwizzle.h"; sourceTree = "<group>"; };
+		A6721EF81FEBAA9800F0F206 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A6721EF91FEBAA9800F0F206 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A6721EFB1FEBABD500F0F206 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6721E341FEBA95D00F0F206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6721E4C1FEBA95E00F0F206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6721E571FEBA95E00F0F206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6721E2E1FEBA95D00F0F206 = {
+			isa = PBXGroup;
+			children = (
+				A6721E391FEBA95D00F0F206 /* WOCrashProtector */,
+				A6721E521FEBA95E00F0F206 /* WOCrashProtectorTests */,
+				A6721E5D1FEBA95E00F0F206 /* WOCrashProtectorUITests */,
+				A6721E381FEBA95D00F0F206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6721E381FEBA95D00F0F206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6721E371FEBA95D00F0F206 /* WOCrashProtector.app */,
+				A6721E4F1FEBA95E00F0F206 /* WOCrashProtectorTests.xctest */,
+				A6721E5A1FEBA95E00F0F206 /* WOCrashProtectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6721E391FEBA95D00F0F206 /* WOCrashProtector */ = {
+			isa = PBXGroup;
+			children = (
+				A6721EC91FEBA9DE00F0F206 /* WOCrashProtector */,
+				A6721E3A1FEBA95D00F0F206 /* AppDelegate.h */,
+				A6721E3B1FEBA95D00F0F206 /* AppDelegate.m */,
+				A6721E3D1FEBA95D00F0F206 /* ViewController.h */,
+				A6721E3E1FEBA95D00F0F206 /* ViewController.m */,
+				A6721EF81FEBAA9800F0F206 /* Person.h */,
+				A6721EF91FEBAA9800F0F206 /* Person.m */,
+				A6721E401FEBA95E00F0F206 /* Main.storyboard */,
+				A6721E431FEBA95E00F0F206 /* Assets.xcassets */,
+				A6721E451FEBA95E00F0F206 /* LaunchScreen.storyboard */,
+				A6721E481FEBA95E00F0F206 /* Info.plist */,
+				A6721E491FEBA95E00F0F206 /* main.m */,
+			);
+			path = WOCrashProtector;
+			sourceTree = "<group>";
+		};
+		A6721E521FEBA95E00F0F206 /* WOCrashProtectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6721E531FEBA95E00F0F206 /* WOCrashProtectorTests.m */,
+				A6721E551FEBA95E00F0F206 /* Info.plist */,
+				A6721EFB1FEBABD500F0F206 /* PrefixHeader.pch */,
+			);
+			path = WOCrashProtectorTests;
+			sourceTree = "<group>";
+		};
+		A6721E5D1FEBA95E00F0F206 /* WOCrashProtectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6721E5E1FEBA95E00F0F206 /* WOCrashProtectorUITests.m */,
+				A6721E601FEBA95E00F0F206 /* Info.plist */,
+			);
+			path = WOCrashProtectorUITests;
+			sourceTree = "<group>";
+		};
+		A6721EC91FEBA9DE00F0F206 /* WOCrashProtector */ = {
+			isa = PBXGroup;
+			children = (
+				A6721ED61FEBA9DE00F0F206 /* WOContainer */,
+				A6721ED01FEBA9DE00F0F206 /* WOCrashProtectorManager.h */,
+				A6721ED51FEBA9DE00F0F206 /* WOCrashProtectorManager.m */,
+				A6721ECA1FEBA9DE00F0F206 /* WOCrashLog.h */,
+				A6721ED31FEBA9DE00F0F206 /* WOCrashLog.m */,
+				A6721EE81FEBA9DE00F0F206 /* NSObject+WOSwizzle.h */,
+				A6721ECF1FEBA9DE00F0F206 /* NSObject+WOSwizzle.m */,
+				A6721ED41FEBA9DE00F0F206 /* NSTimer+Crash.h */,
+				A6721ECD1FEBA9DE00F0F206 /* NSTimer+Crash.m */,
+				A6721EE71FEBA9DE00F0F206 /* NSObject+SelectorCrash.h */,
+				A6721ECE1FEBA9DE00F0F206 /* NSObject+SelectorCrash.m */,
+				A6721ED11FEBA9DE00F0F206 /* NSObject+KVOCrash.h */,
+				A6721ECC1FEBA9DE00F0F206 /* NSObject+KVOCrash.m */,
+				A6721ECB1FEBA9DE00F0F206 /* NSObject+NSNotificationCrash.h */,
+				A6721ED21FEBA9DE00F0F206 /* NSObject+NSNotificationCrash.m */,
+			);
+			path = WOCrashProtector;
+			sourceTree = "<group>";
+		};
+		A6721ED61FEBA9DE00F0F206 /* WOContainer */ = {
+			isa = PBXGroup;
+			children = (
+				A6721EE31FEBA9DE00F0F206 /* NSArray+WOCrash.h */,
+				A6721EDA1FEBA9DE00F0F206 /* NSArray+WOCrash.m */,
+				A6721EDD1FEBA9DE00F0F206 /* NSMutableArray+WOCrash.h */,
+				A6721EE61FEBA9DE00F0F206 /* NSMutableArray+WOCrash.m */,
+				A6721EDE1FEBA9DE00F0F206 /* NSDictionary+WOCrash.h */,
+				A6721EE51FEBA9DE00F0F206 /* NSDictionary+WOCrash.m */,
+				A6721EE01FEBA9DE00F0F206 /* NSMutableDictionary+WOCrash.h */,
+				A6721ED81FEBA9DE00F0F206 /* NSMutableDictionary+WOCrash.m */,
+				A6721ED91FEBA9DE00F0F206 /* NSMutableAttributedString+WOCrash.h */,
+				A6721EDF1FEBA9DE00F0F206 /* NSMutableAttributedString+WOCrash.m */,
+				A6721EE11FEBA9DE00F0F206 /* NSString+WOCrash.h */,
+				A6721ED71FEBA9DE00F0F206 /* NSString+WOCrash.m */,
+				A6721EDC1FEBA9DE00F0F206 /* NSMutableString+WOCrash.h */,
+				A6721EE21FEBA9DE00F0F206 /* NSMutableString+WOCrash.m */,
+				A6721EE41FEBA9DE00F0F206 /* NSAttributedString+WOCrash.h */,
+				A6721EDB1FEBA9DE00F0F206 /* NSAttributedString+WOCrash.m */,
+			);
+			path = WOContainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6721E361FEBA95D00F0F206 /* WOCrashProtector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6721E631FEBA95E00F0F206 /* Build configuration list for PBXNativeTarget "WOCrashProtector" */;
+			buildPhases = (
+				A6721E331FEBA95D00F0F206 /* Sources */,
+				A6721E341FEBA95D00F0F206 /* Frameworks */,
+				A6721E351FEBA95D00F0F206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WOCrashProtector;
+			productName = WOCrashProtector;
+			productReference = A6721E371FEBA95D00F0F206 /* WOCrashProtector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6721E4E1FEBA95E00F0F206 /* WOCrashProtectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6721E661FEBA95E00F0F206 /* Build configuration list for PBXNativeTarget "WOCrashProtectorTests" */;
+			buildPhases = (
+				A6721E4B1FEBA95E00F0F206 /* Sources */,
+				A6721E4C1FEBA95E00F0F206 /* Frameworks */,
+				A6721E4D1FEBA95E00F0F206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6721E511FEBA95E00F0F206 /* PBXTargetDependency */,
+			);
+			name = WOCrashProtectorTests;
+			productName = WOCrashProtectorTests;
+			productReference = A6721E4F1FEBA95E00F0F206 /* WOCrashProtectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6721E591FEBA95E00F0F206 /* WOCrashProtectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6721E691FEBA95E00F0F206 /* Build configuration list for PBXNativeTarget "WOCrashProtectorUITests" */;
+			buildPhases = (
+				A6721E561FEBA95E00F0F206 /* Sources */,
+				A6721E571FEBA95E00F0F206 /* Frameworks */,
+				A6721E581FEBA95E00F0F206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6721E5C1FEBA95E00F0F206 /* PBXTargetDependency */,
+			);
+			name = WOCrashProtectorUITests;
+			productName = WOCrashProtectorUITests;
+			productReference = A6721E5A1FEBA95E00F0F206 /* WOCrashProtectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6721E2F1FEBA95D00F0F206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wuou;
+				TargetAttributes = {
+					A6721E361FEBA95D00F0F206 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A6721E4E1FEBA95E00F0F206 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6721E361FEBA95D00F0F206;
+					};
+					A6721E591FEBA95E00F0F206 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6721E361FEBA95D00F0F206;
+					};
+				};
+			};
+			buildConfigurationList = A6721E321FEBA95D00F0F206 /* Build configuration list for PBXProject "WOCrashProtector" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6721E2E1FEBA95D00F0F206;
+			productRefGroup = A6721E381FEBA95D00F0F206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6721E361FEBA95D00F0F206 /* WOCrashProtector */,
+				A6721E4E1FEBA95E00F0F206 /* WOCrashProtectorTests */,
+				A6721E591FEBA95E00F0F206 /* WOCrashProtectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6721E351FEBA95D00F0F206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6721E471FEBA95E00F0F206 /* LaunchScreen.storyboard in Resources */,
+				A6721E441FEBA95E00F0F206 /* Assets.xcassets in Resources */,
+				A6721E421FEBA95E00F0F206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6721E4D1FEBA95E00F0F206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6721E581FEBA95E00F0F206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6721E331FEBA95D00F0F206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6721EF01FEBA9DE00F0F206 /* NSString+WOCrash.m in Sources */,
+				A6721EEC1FEBA9DE00F0F206 /* NSObject+WOSwizzle.m in Sources */,
+				A6721EFA1FEBAA9800F0F206 /* Person.m in Sources */,
+				A6721E3F1FEBA95D00F0F206 /* ViewController.m in Sources */,
+				A6721EF21FEBA9DE00F0F206 /* NSArray+WOCrash.m in Sources */,
+				A6721EF11FEBA9DE00F0F206 /* NSMutableDictionary+WOCrash.m in Sources */,
+				A6721E4A1FEBA95E00F0F206 /* main.m in Sources */,
+				A6721EEB1FEBA9DE00F0F206 /* NSObject+SelectorCrash.m in Sources */,
+				A6721EF71FEBA9DE00F0F206 /* NSMutableArray+WOCrash.m in Sources */,
+				A6721EEE1FEBA9DE00F0F206 /* WOCrashLog.m in Sources */,
+				A6721EF51FEBA9DE00F0F206 /* NSMutableString+WOCrash.m in Sources */,
+				A6721EF61FEBA9DE00F0F206 /* NSDictionary+WOCrash.m in Sources */,
+				A6721EF41FEBA9DE00F0F206 /* NSMutableAttributedString+WOCrash.m in Sources */,
+				A6721EEA1FEBA9DE00F0F206 /* NSTimer+Crash.m in Sources */,
+				A6721EF31FEBA9DE00F0F206 /* NSAttributedString+WOCrash.m in Sources */,
+				A6721EEF1FEBA9DE00F0F206 /* WOCrashProtectorManager.m in Sources */,
+				A6721EED1FEBA9DE00F0F206 /* NSObject+NSNotificationCrash.m in Sources */,
+				A6721EE91FEBA9DE00F0F206 /* NSObject+KVOCrash.m in Sources */,
+				A6721E3C1FEBA95D00F0F206 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6721E4B1FEBA95E00F0F206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6721E541FEBA95E00F0F206 /* WOCrashProtectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6721E561FEBA95E00F0F206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6721E5F1FEBA95E00F0F206 /* WOCrashProtectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6721E511FEBA95E00F0F206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6721E361FEBA95D00F0F206 /* WOCrashProtector */;
+			targetProxy = A6721E501FEBA95E00F0F206 /* PBXContainerItemProxy */;
+		};
+		A6721E5C1FEBA95E00F0F206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6721E361FEBA95D00F0F206 /* WOCrashProtector */;
+			targetProxy = A6721E5B1FEBA95E00F0F206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6721E401FEBA95E00F0F206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6721E411FEBA95E00F0F206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6721E451FEBA95E00F0F206 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6721E461FEBA95E00F0F206 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6721E611FEBA95E00F0F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6721E621FEBA95E00F0F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6721E641FEBA95E00F0F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wuou/Desktop/WOCrashProtector/WOCrashProtector/WOCrashProtectorTests/PrefixHeader.pch;
+				INFOPLIST_FILE = WOCrashProtector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6721E651FEBA95E00F0F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wuou/Desktop/WOCrashProtector/WOCrashProtector/WOCrashProtectorTests/PrefixHeader.pch;
+				INFOPLIST_FILE = WOCrashProtector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6721E671FEBA95E00F0F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WOCrashProtectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOCrashProtector.app/WOCrashProtector";
+			};
+			name = Debug;
+		};
+		A6721E681FEBA95E00F0F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WOCrashProtectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOCrashProtector.app/WOCrashProtector";
+			};
+			name = Release;
+		};
+		A6721E6A1FEBA95E00F0F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WOCrashProtectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WOCrashProtector;
+			};
+			name = Debug;
+		};
+		A6721E6B1FEBA95E00F0F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WOCrashProtectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WOCrashProtector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6721E321FEBA95D00F0F206 /* Build configuration list for PBXProject "WOCrashProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6721E611FEBA95E00F0F206 /* Debug */,
+				A6721E621FEBA95E00F0F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6721E631FEBA95E00F0F206 /* Build configuration list for PBXNativeTarget "WOCrashProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6721E641FEBA95E00F0F206 /* Debug */,
+				A6721E651FEBA95E00F0F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6721E661FEBA95E00F0F206 /* Build configuration list for PBXNativeTarget "WOCrashProtectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6721E671FEBA95E00F0F206 /* Debug */,
+				A6721E681FEBA95E00F0F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6721E691FEBA95E00F0F206 /* Build configuration list for PBXNativeTarget "WOCrashProtectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6721E6A1FEBA95E00F0F206 /* Debug */,
+				A6721E6B1FEBA95E00F0F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6721E2F1FEBA95D00F0F206 /* Project object */;
+}

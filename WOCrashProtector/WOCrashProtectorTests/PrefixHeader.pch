@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  WOCrashProtector
+//
+//  Created by 吴欧 on 2017/12/21.
+//  Copyright © 2017年 wuou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+
+
+#endif /* PrefixHeader_pch */
