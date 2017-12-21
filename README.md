@@ -34,7 +34,7 @@ Crash protection based on Swizzle Method. Can effectively prevent the code poten
 # 注意事项
 
  ** 建议实际开发的时候关闭该组件，以便及时发现crash bug，需要上架或者演示的时候开启crash防护组件。 **
- *  该组件会占用一定内存，不过正常情况下不影响性能。
+ *  该组件中使用了@try@catch捕捉crash会占用极少量内存，不过正常情况下不影响性能。
  *  目前尚未测试其他第三方框架共同使用时是否存在冲突的情况，如bugly、友盟等。
  *  如果您发现了问题希望能issue，大家一起来解决问题 ^_^
 
