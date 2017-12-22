@@ -44,5 +44,6 @@ Crash protection based on Swizzle Method. Can effectively prevent the code poten
  *  该组件中使用了@try@catch捕捉crash会占用极少量内存，不过正常情况下不影响性能。
  *  目前尚未测试其他第三方框架共同使用时是否存在冲突的情况，如bugly、友盟等。
  *  如果您发现了问题希望能issue，大家一起来解决问题 ^_^
+ *  最后，如果你觉得这个框架对你有帮助就给个star吧 ^_^
 
 
