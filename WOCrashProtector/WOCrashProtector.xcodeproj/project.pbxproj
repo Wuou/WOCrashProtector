@@ -547,7 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/wuou/Desktop/WOCrashProtector/WOCrashProtector/WOCrashProtectorTests/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WOCrashProtectorTests/PrefixHeader.pch";
 				INFOPLIST_FILE = WOCrashProtector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtector;
@@ -563,7 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = $(SRCROOT)/WOCrashProtectorTests/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WOCrashProtectorTests/PrefixHeader.pch";
 				INFOPLIST_FILE = WOCrashProtector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wuou.WOCrashProtector;
