@@ -33,8 +33,7 @@ Crash protection based on Swizzle Method. Can effectively prevent the code poten
 + (void)configCrashProtectorService:(WOCrashProtectorStyle)protectorType;
 
 ```
-![]
-(https://raw.githubusercontent.com/Wuou/WOCrashProtector/master/crash.png)
+![](https://raw.githubusercontent.com/Wuou/WOCrashProtector/master/crash.png)
 
 # 版本适配   
 系统支持 iOS 8.0 ~ iOS 11.2
