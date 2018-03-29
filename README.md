@@ -1,5 +1,7 @@
 # WOCrashProtector
 Crash protection based on Swizzle Method. Can effectively prevent the code potential crash, automatically capture the broken loop factor that causes the app to crash when the app runs, so as to prevent the app from collapsing, so it can continue to function normally
+[简书地址👇](https://www.jianshu.com/p/1ac0929a6608)
+
 
 # 前言
   一个无侵入的 iOS crash 防护框架，基于 Swizzle Method 的 Crash 防护。能有效的防止代码潜在的crash，自动在app运行时实时捕获导致app崩溃的破环因子，使app避免崩溃，照样可以继续正常运行。
