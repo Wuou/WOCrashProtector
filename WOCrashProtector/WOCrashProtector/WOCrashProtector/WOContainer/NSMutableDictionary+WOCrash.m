@@ -45,7 +45,7 @@
 - (void)wo_setObject:(id)anObject forKeyedSubscript:(id<NSCopying>)aKey {
     
     @try {
-        [self wo_setObject:anObject forKey:aKey];
+        [self wo_setObject:anObject forKeyedSubscript:aKey];
     }
     @catch (NSException *exception) {
         [WOCrashLog wo_noteErrorWithException:exception attachedTODO:@""];
